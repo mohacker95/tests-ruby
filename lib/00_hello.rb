@@ -4,8 +4,7 @@ end
 
 def greet(name)
     
-    return "Hello, Alice!" if name="Alice"
-    return "Hello, Bob!"   if name="bob"
+    return "Hello, #{name}!"
 
 end
 
